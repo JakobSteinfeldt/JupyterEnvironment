@@ -1,7 +1,7 @@
 version:                "3.6"
 services:
   datascience-notebook:
-      image: jakobsteinfeldt/desktop_datascience-notebook
+      image: jakobsteinfeldt/jupyterdatascience
       volumes:
         - C:/Users/Jakob/Google Drive/Promotion:/home/jovyan/work # Edit xxx::/home/jovyan/work according your path
       ports:
