@@ -1,0 +1,9 @@
+version:                "3.6"
+services:
+  datascience-notebook:
+      build: .
+      volumes:
+        - C:/Users/Jakob/Google Drive/Promotion:/home/jovyan/work # Edit xxx::/home/jovyan/work according your path
+      ports:
+        - 8888:8888
+      container_name:   datascience-notebook-container
